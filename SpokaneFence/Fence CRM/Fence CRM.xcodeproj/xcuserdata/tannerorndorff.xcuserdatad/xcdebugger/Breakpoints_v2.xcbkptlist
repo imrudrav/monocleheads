@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/main.cpp"
+            timestampString = "551219521.208153"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/Customer.cpp"
+            timestampString = "538425389.340975"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "Customer::GetID()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/List.hpp"
+            timestampString = "551219521.208261"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "remove(int id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Customer&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538351479.390028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Gate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538351479.391726"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Line&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538351479.393396"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Estimate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538351479.3946511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Fence&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538351479.396049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/List.hpp"
+            timestampString = "551219521.208306"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "remove(int id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Customer&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.0893559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Gate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.091961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Line&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.095102"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Estimate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.09734"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "170">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Fence&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.099327"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "170">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/Node.hpp"
+            timestampString = "538425389.3426729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;Customer&gt;::~Node()"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/Node.hpp"
+                  timestampString = "538355063.966126"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;Gate&gt;::~Node()"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/Node.hpp"
+                  timestampString = "538355063.9673851"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;Line&gt;::~Node()"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/Node.hpp"
+                  timestampString = "538355063.9686379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;Estimate&gt;::~Node()"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/Node.hpp"
+                  timestampString = "538355063.970029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Node&lt;Fence&gt;::~Node()"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/Node.hpp"
+                  timestampString = "538355063.971453"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = ""
+            moduleName = "">
+            <Locations>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "malloc_error_break"
+            moduleName = "">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "malloc_error_break"
+                  moduleName = "libsystem_malloc.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/List.hpp"
+            timestampString = "551219521.20836"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "remove(int id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Customer&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.107139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Gate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.1094559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Line&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.111145"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Estimate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.1124949"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Fence&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357319.114269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/List.hpp"
+            timestampString = "551219521.208401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "add(T* data)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Customer&gt;::add(Customer*)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357189.652295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Gate&gt;::add(Gate*)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357189.65362"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Line&gt;::add(Line*)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357189.654875"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Estimate&gt;::add(Estimate*)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357189.656333"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Fence&gt;::add(Fence*)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357189.6578211"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence CRM/List.hpp"
+            timestampString = "551219521.208437"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "remove(int id)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Customer&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357530.9310859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Gate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357530.9330781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Line&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357530.934725"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Estimate&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357530.936011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "List&lt;Fence&gt;::remove(int)"
+                  moduleName = "Fence CRM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/Fence%20CRM/Fence%20CRM/List.hpp"
+                  timestampString = "538357530.937418"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "122">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

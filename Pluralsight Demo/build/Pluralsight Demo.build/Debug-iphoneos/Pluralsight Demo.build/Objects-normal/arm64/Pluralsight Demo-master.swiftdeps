@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "5e8809158267fdb8233f953eb8bf01f7"
+build_time: [554856212, 23694000]
+inputs:
+  "/Users/tannerorndorff/Documents/Monocleheads/Pluralsight Demo/Pluralsight Demo/ViewController.swift": [554855296, 0]
+  "/Users/tannerorndorff/Documents/Monocleheads/Pluralsight Demo/Pluralsight Demo/AppDelegate.swift": [554855296, 0]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "83603cbcd0703e25af1e8981d6eca3d8"
+build_time: [1515723072, 384021000]
+inputs:
+  "/Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/FenceGUI/FenceGUI/DetailViewController.swift": [1515723069, 0]
+  "/Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/FenceGUI/FenceGUI/MasterViewController.swift": [1515723069, 0]
+  "/Users/tannerorndorff/Documents/Monocleheads/SpokaneFence/FenceGUI/FenceGUI/AppDelegate.swift": [1515723069, 0]

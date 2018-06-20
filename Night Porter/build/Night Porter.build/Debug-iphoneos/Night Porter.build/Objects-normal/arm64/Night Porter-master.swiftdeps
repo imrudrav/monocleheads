@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "75e43232c9835517fe524444e9a1c657"
+build_time: [554938028, 343113000]
+inputs:
+  "/Users/tannerorndorff/Documents/Monocleheads/Night Porter/Night Porter/ViewController.swift": [554938028, 0]
+  "/Users/tannerorndorff/Documents/Monocleheads/Night Porter/Night Porter/AppDelegate.swift": [554856767, 0]

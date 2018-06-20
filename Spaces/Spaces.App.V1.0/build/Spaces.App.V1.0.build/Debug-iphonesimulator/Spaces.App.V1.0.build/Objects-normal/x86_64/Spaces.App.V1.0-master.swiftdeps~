@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "6a3915179655bfea0881691081780fbf"
+build_time: [558932996, 499413000]
+inputs:
+  "/Users/tannerorndorff/Documents/Monocleheads/Spaces.App.V1.0/Spaces.App.V1.0/ViewController.swift": [558932993, 0]
+  "/Users/tannerorndorff/Documents/Monocleheads/Spaces.App.V1.0/Spaces.App.V1.0/AppDelegate.swift": [558932993, 0]

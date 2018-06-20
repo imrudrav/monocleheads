@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F151C1420168101003D52F5 /* List.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F151C1320168101003D52F5 /* List.hpp */; };
+		4F3E1A6B1FBA647000F320C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A6A1FBA647000F320C3 /* main.cpp */; };
+		4F3E1A731FBA65D400F320C3 /* Estimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A711FBA65D400F320C3 /* Estimate.cpp */; };
+		4F3E1A761FBA65E800F320C3 /* Fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A741FBA65E800F320C3 /* Fence.cpp */; };
+		4F3E1A791FBA65F300F320C3 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A771FBA65F300F320C3 /* Line.cpp */; };
+		4F3E1A7C1FBA65FB00F320C3 /* Gate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A7A1FBA65FB00F320C3 /* Gate.cpp */; };
+		4F3E1A7F1FBA660600F320C3 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A7D1FBA660600F320C3 /* Customer.cpp */; };
+		4F3E1A821FBA663400F320C3 /* Business.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A801FBA663400F320C3 /* Business.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F3E1A651FBA647000F320C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F151C1320168101003D52F5 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		4F29852F1FCDFDCC00647403 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		4F3E1A671FBA647000F320C3 /* Fence CRM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fence CRM"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3E1A6A1FBA647000F320C3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F3E1A711FBA65D400F320C3 /* Estimate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Estimate.cpp; sourceTree = "<group>"; };
+		4F3E1A721FBA65D400F320C3 /* Estimate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Estimate.hpp; sourceTree = "<group>"; };
+		4F3E1A741FBA65E800F320C3 /* Fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fence.cpp; sourceTree = "<group>"; };
+		4F3E1A751FBA65E800F320C3 /* Fence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fence.hpp; sourceTree = "<group>"; };
+		4F3E1A771FBA65F300F320C3 /* Line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		4F3E1A781FBA65F300F320C3 /* Line.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Line.hpp; sourceTree = "<group>"; };
+		4F3E1A7A1FBA65FB00F320C3 /* Gate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gate.cpp; sourceTree = "<group>"; };
+		4F3E1A7B1FBA65FB00F320C3 /* Gate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gate.hpp; sourceTree = "<group>"; };
+		4F3E1A7D1FBA660600F320C3 /* Customer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
+		4F3E1A7E1FBA660600F320C3 /* Customer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
+		4F3E1A801FBA663400F320C3 /* Business.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Business.cpp; sourceTree = "<group>"; };
+		4F3E1A811FBA663400F320C3 /* Business.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Business.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F3E1A641FBA647000F320C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3E1A5E1FBA647000F320C3 = {
+			isa = PBXGroup;
+			children = (
+				4F3E1A691FBA647000F320C3 /* Fence CRM */,
+				4F3E1A681FBA647000F320C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3E1A681FBA647000F320C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F3E1A671FBA647000F320C3 /* Fence CRM */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F3E1A691FBA647000F320C3 /* Fence CRM */ = {
+			isa = PBXGroup;
+			children = (
+				4F3E1A6A1FBA647000F320C3 /* main.cpp */,
+				4F3E1A801FBA663400F320C3 /* Business.cpp */,
+				4F3E1A811FBA663400F320C3 /* Business.hpp */,
+				4F3E1A711FBA65D400F320C3 /* Estimate.cpp */,
+				4F3E1A721FBA65D400F320C3 /* Estimate.hpp */,
+				4F3E1A741FBA65E800F320C3 /* Fence.cpp */,
+				4F3E1A751FBA65E800F320C3 /* Fence.hpp */,
+				4F3E1A771FBA65F300F320C3 /* Line.cpp */,
+				4F3E1A781FBA65F300F320C3 /* Line.hpp */,
+				4F3E1A7A1FBA65FB00F320C3 /* Gate.cpp */,
+				4F3E1A7B1FBA65FB00F320C3 /* Gate.hpp */,
+				4F3E1A7D1FBA660600F320C3 /* Customer.cpp */,
+				4F3E1A7E1FBA660600F320C3 /* Customer.hpp */,
+				4F151C1320168101003D52F5 /* List.hpp */,
+				4F29852F1FCDFDCC00647403 /* Node.hpp */,
+			);
+			path = "Fence CRM";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F3E1A661FBA647000F320C3 /* Fence CRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F3E1A6E1FBA647000F320C3 /* Build configuration list for PBXNativeTarget "Fence CRM" */;
+			buildPhases = (
+				4F3E1A631FBA647000F320C3 /* Sources */,
+				4F3E1A641FBA647000F320C3 /* Frameworks */,
+				4F3E1A651FBA647000F320C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fence CRM";
+			productName = "Fence CRM";
+			productReference = 4F3E1A671FBA647000F320C3 /* Fence CRM */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F3E1A5F1FBA647000F320C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Monocle Heads";
+				TargetAttributes = {
+					4F3E1A661FBA647000F320C3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F3E1A621FBA647000F320C3 /* Build configuration list for PBXProject "Fence CRM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F3E1A5E1FBA647000F320C3;
+			productRefGroup = 4F3E1A681FBA647000F320C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F3E1A661FBA647000F320C3 /* Fence CRM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F3E1A631FBA647000F320C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F3E1A6B1FBA647000F320C3 /* main.cpp in Sources */,
+				4F3E1A791FBA65F300F320C3 /* Line.cpp in Sources */,
+				4F3E1A761FBA65E800F320C3 /* Fence.cpp in Sources */,
+				4F3E1A821FBA663400F320C3 /* Business.cpp in Sources */,
+				4F3E1A7F1FBA660600F320C3 /* Customer.cpp in Sources */,
+				4F3E1A731FBA65D400F320C3 /* Estimate.cpp in Sources */,
+				4F3E1A7C1FBA65FB00F320C3 /* Gate.cpp in Sources */,
+				4F151C1420168101003D52F5 /* List.hpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F3E1A6C1FBA647000F320C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F3E1A6D1FBA647000F320C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F3E1A6F1FBA647000F320C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97X3DJ65F;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F3E1A701FBA647000F320C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P97X3DJ65F;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F3E1A621FBA647000F320C3 /* Build configuration list for PBXProject "Fence CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3E1A6C1FBA647000F320C3 /* Debug */,
+				4F3E1A6D1FBA647000F320C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F3E1A6E1FBA647000F320C3 /* Build configuration list for PBXNativeTarget "Fence CRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F3E1A6F1FBA647000F320C3 /* Debug */,
+				4F3E1A701FBA647000F320C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F3E1A5F1FBA647000F320C3 /* Project object */;
+}
