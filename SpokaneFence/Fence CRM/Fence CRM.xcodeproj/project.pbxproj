@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0C70C920EFE6F00074F335 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C70C720EFE6F00074F335 /* Employee.cpp */; };
 		4F151C1420168101003D52F5 /* List.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F151C1320168101003D52F5 /* List.hpp */; };
 		4F3E1A6B1FBA647000F320C3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A6A1FBA647000F320C3 /* main.cpp */; };
 		4F3E1A731FBA65D400F320C3 /* Estimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E1A711FBA65D400F320C3 /* Estimate.cpp */; };
@@ -30,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F0C70C720EFE6F00074F335 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		4F0C70C820EFE6F00074F335 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
 		4F151C1320168101003D52F5 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		4F29852F1FCDFDCC00647403 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		4F3E1A671FBA647000F320C3 /* Fence CRM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fence CRM"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +94,8 @@
 				4F3E1A7B1FBA65FB00F320C3 /* Gate.hpp */,
 				4F3E1A7D1FBA660600F320C3 /* Customer.cpp */,
 				4F3E1A7E1FBA660600F320C3 /* Customer.hpp */,
+				4F0C70C720EFE6F00074F335 /* Employee.cpp */,
+				4F0C70C820EFE6F00074F335 /* Employee.hpp */,
 				4F151C1320168101003D52F5 /* List.hpp */,
 				4F29852F1FCDFDCC00647403 /* Node.hpp */,
 			);
@@ -161,6 +166,7 @@
 				4F3E1A7F1FBA660600F320C3 /* Customer.cpp in Sources */,
 				4F3E1A731FBA65D400F320C3 /* Estimate.cpp in Sources */,
 				4F3E1A7C1FBA65FB00F320C3 /* Gate.cpp in Sources */,
+				4F0C70C920EFE6F00074F335 /* Employee.cpp in Sources */,
 				4F151C1420168101003D52F5 /* List.hpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

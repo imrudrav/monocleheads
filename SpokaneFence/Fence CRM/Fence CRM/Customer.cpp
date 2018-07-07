@@ -35,10 +35,6 @@ Customer::~Customer()
 {
     delete estimate_ids;
 }
-int Customer::GetID()
-{
-    return id;
-}
 
 void Customer::print()
 {

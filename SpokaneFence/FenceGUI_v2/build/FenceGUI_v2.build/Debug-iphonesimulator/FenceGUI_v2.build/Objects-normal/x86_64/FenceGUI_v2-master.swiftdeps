@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "01e07a60d78802ea7b308affef34e651"
+build_time: [1530816163, 624604000]
+inputs:
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v2/FenceGUI_v2/ViewController.swift": [1530816161, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v2/FenceGUI_v2/AppDelegate.swift": [1530816161, 0]

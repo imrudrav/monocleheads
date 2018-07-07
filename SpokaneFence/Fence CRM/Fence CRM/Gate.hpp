@@ -16,6 +16,7 @@ using namespace std;
 
 class Gate
 {
+public:
     //properties
     int width;//4,5 OR 6
     string color;//WHITE , TAN, CLAY, or STONE
@@ -23,7 +24,6 @@ class Gate
     double cost;
     int id;
     double start;
-public:
     //constructor
     Gate(int id, int width, string color, string material);
     double CostCalc( int w, string c, string m);

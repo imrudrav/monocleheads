@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FA86062200850BD00BC2DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA86061200850BD00BC2DEA /* AppDelegate.swift */; };
-		4FA86064200850BD00BC2DEA /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA86063200850BD00BC2DEA /* MasterViewController.swift */; };
-		4FA86066200850BD00BC2DEA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA86065200850BD00BC2DEA /* DetailViewController.swift */; };
-		4FA86069200850BD00BC2DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA86067200850BD00BC2DEA /* Main.storyboard */; };
-		4FA8606B200850BD00BC2DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FA8606A200850BD00BC2DEA /* Assets.xcassets */; };
-		4FA8606E200850BD00BC2DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA8606C200850BD00BC2DEA /* LaunchScreen.storyboard */; };
+		4FE7CC4C20DC1F0500AA11AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7CC4B20DC1F0500AA11AC /* AppDelegate.swift */; };
+		4FE7CC4E20DC1F0500AA11AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7CC4D20DC1F0500AA11AC /* ViewController.swift */; };
+		4FE7CC5120DC1F0500AA11AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE7CC4F20DC1F0500AA11AC /* Main.storyboard */; };
+		4FE7CC5320DC1F0500AA11AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE7CC5220DC1F0500AA11AC /* Assets.xcassets */; };
+		4FE7CC5620DC1F0500AA11AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE7CC5420DC1F0500AA11AC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4FA8605E200850BD00BC2DEA /* FenceGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenceGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FA86061200850BD00BC2DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FA86063200850BD00BC2DEA /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		4FA86065200850BD00BC2DEA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		4FA86068200850BD00BC2DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4FA8606A200850BD00BC2DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4FA8606D200850BD00BC2DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4FA8606F200850BD00BC2DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE7CC4820DC1F0500AA11AC /* FenceGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FenceGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE7CC4B20DC1F0500AA11AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FE7CC4D20DC1F0500AA11AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FE7CC5020DC1F0500AA11AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FE7CC5220DC1F0500AA11AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FE7CC5520DC1F0500AA11AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FE7CC5720DC1F0500AA11AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4FA8605B200850BD00BC2DEA /* Frameworks */ = {
+		4FE7CC4520DC1F0500AA11AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4FA86055200850BD00BC2DEA = {
+		4FE7CC3F20DC1F0500AA11AC = {
 			isa = PBXGroup;
 			children = (
-				4FA86060200850BD00BC2DEA /* FenceGUI */,
-				4FA8605F200850BD00BC2DEA /* Products */,
+				4FE7CC4A20DC1F0500AA11AC /* FenceGUI */,
+				4FE7CC4920DC1F0500AA11AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4FA8605F200850BD00BC2DEA /* Products */ = {
+		4FE7CC4920DC1F0500AA11AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4FA8605E200850BD00BC2DEA /* FenceGUI.app */,
+				4FE7CC4820DC1F0500AA11AC /* FenceGUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FA86060200850BD00BC2DEA /* FenceGUI */ = {
+		4FE7CC4A20DC1F0500AA11AC /* FenceGUI */ = {
 			isa = PBXGroup;
 			children = (
-				4FA86061200850BD00BC2DEA /* AppDelegate.swift */,
-				4FA86063200850BD00BC2DEA /* MasterViewController.swift */,
-				4FA86065200850BD00BC2DEA /* DetailViewController.swift */,
-				4FA86067200850BD00BC2DEA /* Main.storyboard */,
-				4FA8606A200850BD00BC2DEA /* Assets.xcassets */,
-				4FA8606C200850BD00BC2DEA /* LaunchScreen.storyboard */,
-				4FA8606F200850BD00BC2DEA /* Info.plist */,
+				4FE7CC4B20DC1F0500AA11AC /* AppDelegate.swift */,
+				4FE7CC4D20DC1F0500AA11AC /* ViewController.swift */,
+				4FE7CC4F20DC1F0500AA11AC /* Main.storyboard */,
+				4FE7CC5220DC1F0500AA11AC /* Assets.xcassets */,
+				4FE7CC5420DC1F0500AA11AC /* LaunchScreen.storyboard */,
+				4FE7CC5720DC1F0500AA11AC /* Info.plist */,
 			);
 			path = FenceGUI;
 			sourceTree = "<group>";
@@ -70,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4FA8605D200850BD00BC2DEA /* FenceGUI */ = {
+		4FE7CC4720DC1F0500AA11AC /* FenceGUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FA86072200850BD00BC2DEA /* Build configuration list for PBXNativeTarget "FenceGUI" */;
+			buildConfigurationList = 4FE7CC5A20DC1F0500AA11AC /* Build configuration list for PBXNativeTarget "FenceGUI" */;
 			buildPhases = (
-				4FA8605A200850BD00BC2DEA /* Sources */,
-				4FA8605B200850BD00BC2DEA /* Frameworks */,
-				4FA8605C200850BD00BC2DEA /* Resources */,
+				4FE7CC4420DC1F0500AA11AC /* Sources */,
+				4FE7CC4520DC1F0500AA11AC /* Frameworks */,
+				4FE7CC4620DC1F0500AA11AC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,26 +81,27 @@
 			);
 			name = FenceGUI;
 			productName = FenceGUI;
-			productReference = 4FA8605E200850BD00BC2DEA /* FenceGUI.app */;
+			productReference = 4FE7CC4820DC1F0500AA11AC /* FenceGUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4FA86056200850BD00BC2DEA /* Project object */ = {
+		4FE7CC4020DC1F0500AA11AC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Monocle Heads";
 				TargetAttributes = {
-					4FA8605D200850BD00BC2DEA = {
+					4FE7CC4720DC1F0500AA11AC = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 4FA86059200850BD00BC2DEA /* Build configuration list for PBXProject "FenceGUI" */;
+			buildConfigurationList = 4FE7CC4320DC1F0500AA11AC /* Build configuration list for PBXProject "FenceGUI" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 4FA86055200850BD00BC2DEA;
-			productRefGroup = 4FA8605F200850BD00BC2DEA /* Products */;
+			mainGroup = 4FE7CC3F20DC1F0500AA11AC;
+			productRefGroup = 4FE7CC4920DC1F0500AA11AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FA8605D200850BD00BC2DEA /* FenceGUI */,
+				4FE7CC4720DC1F0500AA11AC /* FenceGUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FA8605C200850BD00BC2DEA /* Resources */ = {
+		4FE7CC4620DC1F0500AA11AC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA8606E200850BD00BC2DEA /* LaunchScreen.storyboard in Resources */,
-				4FA8606B200850BD00BC2DEA /* Assets.xcassets in Resources */,
-				4FA86069200850BD00BC2DEA /* Main.storyboard in Resources */,
+				4FE7CC5620DC1F0500AA11AC /* LaunchScreen.storyboard in Resources */,
+				4FE7CC5320DC1F0500AA11AC /* Assets.xcassets in Resources */,
+				4FE7CC5120DC1F0500AA11AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4FA8605A200850BD00BC2DEA /* Sources */ = {
+		4FE7CC4420DC1F0500AA11AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA86066200850BD00BC2DEA /* DetailViewController.swift in Sources */,
-				4FA86064200850BD00BC2DEA /* MasterViewController.swift in Sources */,
-				4FA86062200850BD00BC2DEA /* AppDelegate.swift in Sources */,
+				4FE7CC4E20DC1F0500AA11AC /* ViewController.swift in Sources */,
+				4FE7CC4C20DC1F0500AA11AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4FA86067200850BD00BC2DEA /* Main.storyboard */ = {
+		4FE7CC4F20DC1F0500AA11AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FA86068200850BD00BC2DEA /* Base */,
+				4FE7CC5020DC1F0500AA11AC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4FA8606C200850BD00BC2DEA /* LaunchScreen.storyboard */ = {
+		4FE7CC5420DC1F0500AA11AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4FA8606D200850BD00BC2DEA /* Base */,
+				4FE7CC5520DC1F0500AA11AC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4FA86070200850BD00BC2DEA /* Debug */ = {
+		4FE7CC5820DC1F0500AA11AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		4FA86071200850BD00BC2DEA /* Release */ = {
+		4FE7CC5920DC1F0500AA11AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,31 +271,36 @@
 			};
 			name = Release;
 		};
-		4FA86073200850BD00BC2DEA /* Debug */ = {
+		4FE7CC5B20DC1F0500AA11AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P97X3DJ65F;
 				INFOPLIST_FILE = FenceGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monocleheads.FenceGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FenceGUI/FenceGUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4FA86074200850BD00BC2DEA /* Release */ = {
+		4FE7CC5C20DC1F0500AA11AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P97X3DJ65F;
 				INFOPLIST_FILE = FenceGUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.monocleheads.FenceGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FenceGUI/FenceGUI-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4FA86059200850BD00BC2DEA /* Build configuration list for PBXProject "FenceGUI" */ = {
+		4FE7CC4320DC1F0500AA11AC /* Build configuration list for PBXProject "FenceGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FA86070200850BD00BC2DEA /* Debug */,
-				4FA86071200850BD00BC2DEA /* Release */,
+				4FE7CC5820DC1F0500AA11AC /* Debug */,
+				4FE7CC5920DC1F0500AA11AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FA86072200850BD00BC2DEA /* Build configuration list for PBXNativeTarget "FenceGUI" */ = {
+		4FE7CC5A20DC1F0500AA11AC /* Build configuration list for PBXNativeTarget "FenceGUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4FA86073200850BD00BC2DEA /* Debug */,
-				4FA86074200850BD00BC2DEA /* Release */,
+				4FE7CC5B20DC1F0500AA11AC /* Debug */,
+				4FE7CC5C20DC1F0500AA11AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4FA86056200850BD00BC2DEA /* Project object */;
+	rootObject = 4FE7CC4020DC1F0500AA11AC /* Project object */;
 }

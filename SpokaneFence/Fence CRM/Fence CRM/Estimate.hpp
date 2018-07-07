@@ -15,19 +15,18 @@ using namespace std;
 ///
 class Estimate
 {
+public:
     int id;
     List<Fence>* fences;
     int customer_id;
+    int employee_id;
+    int rep_id;
     double total_cost;
-public:
     Estimate();
+    ~Estimate();
     void AddFence(Fence* f);
     void RemoveFence(int i);
     Fence* FetchFence(int i);
     void TotalCostCalc();
-    double GetTotalCost();
-    int GetCustomerId();
-    void SetCustomerId(int i);
-    int GetID();
 };
 #endif /* Estimate_hpp */

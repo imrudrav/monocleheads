@@ -14,6 +14,7 @@ using namespace std;
 
 class Fence
 {
+public:
     List<Line>* lines;
     List<Gate>* gates;
     double material_cost;
@@ -32,9 +33,9 @@ class Fence
     int num_inserts;
     int id;
     //All variables are recalculated upon object contruction and line addition
-public:
     //takes id passed in from main
     Fence(int);
+    ~Fence();
     void fenceStats();
     void AddLine(Line* l);
     void RemoveLine(int id);
@@ -56,7 +57,6 @@ public:
     int num_railsCalc();
     int num_insertsCalc();
     int num_screwsCalc();
-    int GetID();
     void print();
 };
 #endif /* Fence_hpp */

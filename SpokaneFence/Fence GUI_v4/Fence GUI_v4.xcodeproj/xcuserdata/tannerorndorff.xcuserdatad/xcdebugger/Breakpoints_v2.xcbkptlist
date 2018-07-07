@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence GUI_v4/ViewController.swift"
+            timestampString = "552670272.547784"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence GUI_v4/ViewController.swift"
+            timestampString = "552670272.548141"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence GUI_v4/ViewController.swift"
+            timestampString = "552670272.548431"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fence GUI_v4/ViewController.swift"
+            timestampString = "552670272.548642"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "variable initialization expression of Fence_GUI_v4.ViewController.array1 : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Fence GUI_v4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/Fence%20GUI_v4/Fence%20GUI_v4/ViewController.swift"
+                  timestampString = "552670272.576653"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fence_GUI_v4.ViewController.array1.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Fence GUI_v4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/Fence%20GUI_v4/Fence%20GUI_v4/ViewController.swift"
+                  timestampString = "552670272.5794491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fence_GUI_v4.ViewController.init(style: __C.UITableViewStyle) -&gt; Fence_GUI_v4.ViewController"
+                  moduleName = "Fence GUI_v4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/Fence%20GUI_v4/Fence%20GUI_v4/ViewController.swift"
+                  timestampString = "552670272.581764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fence_GUI_v4.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Fence_GUI_v4.ViewController"
+                  moduleName = "Fence GUI_v4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/Fence%20GUI_v4/Fence%20GUI_v4/ViewController.swift"
+                  timestampString = "552670272.584049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fence_GUI_v4.ViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Fence_GUI_v4.ViewController&gt;"
+                  moduleName = "Fence GUI_v4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/Fence%20GUI_v4/Fence%20GUI_v4/ViewController.swift"
+                  timestampString = "552670272.586856"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

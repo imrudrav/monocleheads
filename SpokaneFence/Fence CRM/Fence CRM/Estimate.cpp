@@ -10,7 +10,11 @@
 //constructor
 Estimate::Estimate()
 {
-    
+    fences = new List<Fence>();
+}
+Estimate::~Estimate()
+{
+    delete fences;
 }
 //addfence to lists of fences on estimate
 void Estimate::AddFence(Fence* f)
@@ -39,21 +43,4 @@ void Estimate::TotalCostCalc()
     {
         total_cost = total_cost + temp->object->GetMaterialCost();
     }
-}
-//returns the total cost on the estimate
-double Estimate::GetTotalCost()
-{
-    return total_cost;
-}
-int Estimate::GetCustomerId()
-{
-    return customer_id;
-}
-void Estimate::SetCustomerId(int i)
-{
-    customer_id = i;
-}
-int Estimate::GetID()
-{
-    return id;
 }

@@ -1,0 +1,203 @@
+//
+//  Node.hpp
+//  Fence CRM
+//
+//  Created by Tanner Orndorff on 11/28/17.
+//  Copyright © 2017 Monocle Heads. All rights reserved.
+//
+//ACCESSORY PRICES
+const double U_CHANNEL_STEEL_1X5X8 = 7.25;
+const double INSERT_TWO_SIDED_4INX8FT = 28.5;
+const double INSERT_Z_LINE_5INX8FT = 25;
+const double INSERT_TWO_SIDED_5INX8F = 39.04;
+const double INSERT_THREE_SIDED_5INX8FT = 50;
+const double INSERT_GATE_ALUM_5INX8FT = 75;
+const double CONCRETE_PRE_MIX_80LBS = 4.15;
+const double PORTLAND_CEMENT_94LBS = 11.95;
+const double QUICK_ROCK_50LBS = 34.25;
+//WHITE PRIVACY PRICES
+const double WHITE_PRIVACY_PANEL_4X6  = 51.48;
+const double WHITE_PRIVACY_PANEL_4X8 = 74.95;
+const double WHITE_PRIVACY_PANEL_5X6 = 51.48;
+const double WHITE_PRIVACY_PANEL_5X8 = 74.95;
+const double WHITE_PRIVACY_PANEL_6X6 = 60.48;
+const double WHITE_PRIVACY_PANEL_6X8 = 86.73;
+const double WHITE_PRIVACY_RAIL_GRN_1X5X6 = 6.89;
+const double WHITE_PRIVACY_RAIL_GRN_1X5X8 = 9.19;
+const double WHITE_PRIVACY_RAIL_STD_1X5X6 = 8.10;
+const double WHITE_PRIVACY_RAIL_STD_1X5X8 = 10.8;
+const double WHITE_PRIVACY_RAIL_STD_1X5X12 = 16.20;
+const double WHITE_PRIVACY_T_G_11INX50IN = 5.83;
+const double WHITE_PRIVACY_T_G_11INX61IN = 7.23;
+const double WHITE_PRIVACY_T_G_11INX62IN = 7.23;
+const double WHITE_PRIVACY_T_G_11INX16FT = 22.29;
+const double WHITE_PRIVACY_T_G_6INX16FT = 11.48;
+const double WHITE_PRIVACY_U_CHANNEL_6 = 1.96;
+const double WHITE_PRIVACY_U_CHANNEL_16 = 5.22;
+const double WHITE_VINYL_GATE_T_G_4X6 = 245;
+const double WHITE_VINYL_GATE_T_G_5X6 = 290;
+const double WHITE_METAL_GATE_T_G_4X6 = 300;
+const double WHITE_METAL_GATE_T_G_6X6 = 340;
+const double WHITE_METAL_GATE_T_G_5X6 = 340;
+const double WHITE_POST_GREEN_5INX5INX5FT = 8.73;
+const double WHITE_POST_GREEN_5INX5INX6FT = 10.48;
+const double WHITE_POST_GREEN_5INX5INX7FT = 12.23;
+const double WHITE_POST_GREEN_5INX5INX8FT = 13.97;
+const double WHITE_POST_GREEN_5INX5INX9FT = 15.72;
+const double WHITE_POST_GREEN_5INX5INX10FT = 17.47;
+const double WHITE_POST_GREEN_LINE_5INX5INX8FT = 13.97;
+const double WHITE_POST_ECONO_5INX5INX5FT = 10.73;
+const double WHITE_POST_ECONO_5INX5INX6FT = 12.87;
+const double WHITE_POST_ECONO_5INX5INX6_5FT = 13.94;
+const double WHITE_POST_ECONO_5INX5INX7FT = 15.02;
+const double WHITE_POST_ECONO_5INX5INX8FT = 17.16;
+const double WHITE_POST_ECONO_5INX5INX9FT = 19.31;
+const double WHITE_POST_ECONO_4INX4INX6FT = 13.17;
+const double WHITE_POST_ECONO_4INX4INX8FT = 17.56;
+const double WHITE_POST_PREMIUM_5INX5INX7FT = 17.64;
+const double WHITE_POST_PREMIUM_5INX5INX8FT = 20.16;
+const double WHITE_POST_PREMIUM_5INX5INX9FT = 22.68;
+const double WHITE_POST_PREMIUM_5INX5INX10FT = 25.21;
+const double WHITE_POST_PREMIUM_5INX5INX12FT = 30.25;
+const double WHITE_POST_PREMIUM_5INX5INX16FT = 40.33;
+const double WHITE_POST_PREMIUM_4INX4INX6FT = 16.61;
+const double WHITE_POST_PREMIUM_4INX4INX8FT = 22.15;
+const double WHITE_POST_PREMIUM_4INX4INX16FT = 44.30;
+const double WHITE_POST_CAP_4INX4IN = .89;
+const double WHITE_POST_CAP_5INX5IN = .89;
+/////////////////////////////////////
+//TAN MATERIAL
+const double TAN_PRIVACY_PANEL_4X6  = 56.84;
+const double TAN_PRIVACY_PANEL_4X8 = 82.05;
+const double TAN_PRIVACY_PANEL_5X6 = 56.84;
+const double TAN_PRIVACY_PANEL_5X8 = 82.05;
+const double TAN_PRIVACY_PANEL_6X6 = 66.30;
+const double TAN_PRIVACY_PANEL_6X8 = 94.43;
+const double TAN_PRIVACY_RAIL_GRN_1X5X6 = 8.56;
+const double TAN_PRIVACY_RAIL_GRN_1X5X8 = 11.41;
+const double TAN_PRIVACY_RAIL_STD_1X5X6 = 9.64;
+const double TAN_PRIVACY_RAIL_STD_1X5X8 = 12.85;
+const double TAN_PRIVACY_RAIL_STD_1X5X12 = 19.28;
+const double TAN_PRIVACY_T_G_11INX50IN = 6.09;
+const double TAN_PRIVACY_T_G_11INX61IN = 7.55;
+const double TAN_PRIVACY_T_G_11INX62IN = 7.55;
+const double TAN_PRIVACY_T_G_11INX16FT = 23.28;
+const double TAN_PRIVACY_T_G_6INX16FT = 12.11;
+const double TAN_PRIVACY_U_CHANNEL_6 = 2.1;
+const double TAN_PRIVACY_U_CHANNEL_16 = 5.6;
+const double TAN_VINYL_GATE_T_G_4X6 = 265;
+const double TAN_VINYL_GATE_T_G_5X6 = 310;
+const double TAN_METAL_GATE_T_G_4X6 = 345;
+const double TAN_METAL_GATE_T_G_6X6 = 385;
+const double TAN_METAL_GATE_T_G_5X6 = 385;
+const double TAN_POST_GREEN_5INX5INX7FT = 12.89;
+const double TAN_POST_GREEN_5INX5INX8FT = 14.73;
+const double TAN_POST_GREEN_LINE_5INX5INX8FT = 14.73;
+const double TAN_POST_ECONO_5INX5INX6FT = 13.6;
+const double TAN_POST_ECONO_5INX5INX6_5FT = 14.73;
+const double TAN_POST_ECONO_5INX5INX7FT = 15.87;
+const double TAN_POST_ECONO_5INX5INX8FT = 18.13;
+const double TAN_POST_PREMIUM_5INX5INX7FT = 18.57;
+const double TAN_POST_PREMIUM_5INX5INX8FT = 21.23;
+const double TAN_POST_PREMIUM_5INX5INX9FT = 23.88;
+const double TAN_POST_PREMIUM_5INX5INX12FT = 31.84;
+const double TAN_POST_PREMIUM_5INX5INX16FT = 42.45;
+const double TAN_POST_PREMIUM_4INX4INX6FT = 17.52;
+const double TAN_POST_PREMIUM_4INX4INX16FT = 46.72;
+const double TAN_POST_PREMIUM_4INX4INX24FT = 70.08;
+const double TAN_POST_CAP_4INX4IN = .99;
+const double TAN_POST_CAP_5INX5IN = .99;
+///////////////////////////////////////////////////////
+//CLAY AND STONE PRICES
+const double CLAY_OR_STONE_PRIVACY_PANEL_4X6  = 66.4;
+const double CLAY_OR_STONE_PRIVACY_PANEL_4X8 = 94.57;
+const double CLAY_OR_STONE_PRIVACY_PANEL_5X6 = 66.40;
+const double CLAY_OR_STONE_PRIVACY_PANEL_5X8 = 94.57;
+const double CLAY_OR_STONE_PRIVACY_PANEL_6X6 = 81.06;
+const double CLAY_OR_STONE_PRIVACY_PANEL_6X8 = 105.69;
+const double CLAY_OR_STONE_PRIVACY_RAIL_STD_1X5X6 = 9.34;
+const double CLAY_OR_STONE_PRIVACY_RAIL_STD_1X5X8 = 12.46;
+const double CLAY_OR_STONE_PRIVACY_RAIL_STD_1X5X12 = 18.69;
+const double CLAY_OR_STONE_PRIVACY_T_G_11INX50IN = 6.9;
+const double CLAY_OR_STONE_PRIVACY_T_G_11INX61IN = 8.55;
+const double CLAY_OR_STONE_PRIVACY_T_G_11INX62IN = 8.55;
+const double CLAY_OR_STONE_PRIVACY_T_G_11INX16FT = 26.38;
+const double CLAY_OR_STONE_PRIVACY_T_G_6INX16FT = 14.72;
+const double CLAY_OR_STONE_PRIVACY_U_CHANNEL_6FT = 2.56;
+const double CLAY_OR_STONE_PRIVACY_U_CHANNEL_16FT = 6.83;
+const double CLAY_OR_STONE_VINYL_GATE_T_G_4X6 = 275;
+const double CLAY_OR_STONE_VINYL_GATE_T_G_5X6 = 330;
+const double CLAY_OR_STONE_METAL_GATE_T_G_4X6 = 350;
+const double CLAY_OR_STONE_METAL_GATE_T_G_6X6 = 400;
+const double CLAY_OR_STONE_METAL_GATE_T_G_5X6 = 400;
+const double CLAY_OR_STONE_POST_ECONO_5INX5INX6_5FT = 16.47;
+const double CLAY_OR_STONE_POST_ECONO_5INX5INX8FT = 20.27;
+const double CLAY_OR_STONE_POST_PREMIUM_5INX5INX8FT = 23.79;
+const double CLAY_OR_STONE_POST_PREMIUM_5INX5INX9FT = 26.76;
+const double CLAY_OR_STONE_POST_PREMIUM_5INX5INX24FT = 71.36;
+const double CLAY_OR_STONE_POST_PREMIUM_4INX4INX6FT = 19.6;
+const double CLAY_OR_STONE_POST_PREMIUM_4INX4INX16FT = 52.27;
+const double CLAY_OR_STONE_POST_PREMIUM_4INX4INX24FT = 78.4;
+const double CLAY_OR_STONE_POST_CAP_4INX4IN = 1.1;
+const double CLAY_OR_STONE_POST_CAP_5INX5IN = 1.1;
+////////////////////////////////////////////////////////////
+//RANCH RAIL
+const double RANCHRAIL_GREEN_1INX5INX16FT = 11.54;
+const double RANCHRAIL_ECONO_1INX5INX16FT = 16.57;
+const double RANCHRAIL_PREMIUM_1INX5INX16FT = 21.12;
+const double RANCHRAIL_GATE_VINYL_4FT = 160;
+const double RANCHRAIL_GATE_VINYL_6FT = 175;
+const double RANCHRAIL_GATE_METAL_4FT = 250;
+const double RANCHRAIL_GATE_METAL_8FT = 275;
+const double RANCHRAIL_POST_GREEN_WHITE_5INX5INX5FT = 8.73;
+const double RANCHRAIL_POST_GREEN_WHITE_5INX5INX6_5FT = 9.48;
+const double RANCHRAIL_POST_GREEN_WHITE_LINE_5INX5INX6_5FT = 9.48;
+const double RANCHRAIL_POST_GREEN_WHITE_5INX5INX7FT = 12.22;
+const double RANCHRAIL_POST_ECONO_WHITE_5INX5INX5FT = 10.73;
+const double RANCHRAIL_POST_ECONO_WHITE_5INX5INX6_5FT = 13.94;
+const double RANCHRAIL_POST_ECONO_WHITE_5INX5INX7FT = 15.02;
+const double RANCHRAIL_POST_PREMIUM_WHITE_5INX5INX6_5FT = 16.38;
+const double RANCHRAIL_POST_PREMIUM_WHITE_5INX5INX7FT = 17.74;
+const double RANCHRAIL_POST_PREMIUM_WHITE_5INX5INX10FT = 25.21;
+const double RANCHRAIL_POST_PREMIUM_WHITE_4INX4INX6FT = 16.61;
+const double RANCHRAIL_POST_PREMIUM_WHITE_4INX4INX16FT = 44.30;
+const double RANCHRAIL_POST_PREMIUM_WHITE_4INX4INX24FT = 66.44;
+const double RANCHRAIL_POST_CAP_5INX5IN = .89;
+const double RANCHRAIL_POST_CAP_4INX4IN = .89;
+
+#ifndef Node_hpp
+#define Node_hpp
+
+#include <stdio.h>
+#include <string>
+#include <iostream>
+
+template<typename T>
+struct Node
+{
+    //node that points to the next object
+    //node that points to the front of the list
+    T* object;
+    Node<T>* next = nullptr;
+    Node(T* data);
+    ~Node();
+};
+
+template<typename T>
+Node<T>::Node(T* data)
+{
+    object = data;
+    next = nullptr;
+}
+//destructor
+template<typename T>
+Node<T>::~Node()
+{
+    delete object;
+    if(next != nullptr)
+        delete next;
+    
+}
+
+#endif /* Node_hpp */
+

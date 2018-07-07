@@ -75,7 +75,7 @@ void List<T>::remove(int id)
 {
     //find node
     Node<T>* temp = front;
-    if(temp->object->GetID() == id)
+    if(temp->object->id == id)
     {
         front = temp->next;
         //detach and delete
@@ -86,7 +86,7 @@ void List<T>::remove(int id)
     else
     {
         //as long as the next object's id does not equal the id we are looking for and the next pointer isnt null iterate through
-        while (temp->next->object->GetID() != id && temp->next != nullptr)
+        while (temp->next->object->id != id && temp->next != nullptr)
         {
             temp = temp->next;
         }
@@ -111,13 +111,13 @@ T* List<T>::fetch(int id)
 {
     //iterate and find the object
     Node<T>* temp = front;
-    if(temp->object->GetID() == id)
+    if(temp->object->id == id)
     {
         return temp->object;
     }
     else
     {
-        while(temp->next->object->GetID() != id && temp->next != nullptr)
+        while(temp->next->object->id != id && temp->next != nullptr)
         {
             temp = temp->next;
         }

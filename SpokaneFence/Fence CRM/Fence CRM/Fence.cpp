@@ -16,6 +16,11 @@ Fence::Fence(int i)
     gates = new List<Gate>;
     id = i;
 }
+Fence::~Fence()
+{
+    delete lines;
+    delete gates;
+}
 //addline
 void Fence::AddLine(Line* l)
 {
@@ -73,10 +78,6 @@ void Fence::MaterialCostCalc()
 double Fence::GetMaterialCost()
 {
     return material_cost;
-}
-int Fence::GetID()
-{
-    return id;
 }
 //add remove and fetch gates
 //void AddGate(Gate* g);
