@@ -185,6 +185,33 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("FenceGUI_v5")
+@class UITextField;
+@class UITextView;
+@class UIDatePicker;
+@class UIButton;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC11FenceGUI_v528AddNewCustomerViewController")
+@interface AddNewCustomerViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified firstName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified lastName;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified streetAddress;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified city;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified state;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified zip;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified email;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified phoneNumber;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified notes;
+@property (nonatomic, weak) IBOutlet UIDatePicker * _Null_unspecified date;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified employeeName;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)createEstimate:(UIButton * _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -202,8 +229,6 @@ SWIFT_CLASS("_TtC11FenceGUI_v511AppDelegate")
 
 @class UITableView;
 @class UITableViewCell;
-@class NSBundle;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC11FenceGUI_v514ViewController")
 @interface ViewController : UITableViewController

@@ -1,6 +1,7 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "25d11e8509a8cf2edc4318a7658d47f2"
-build_time: [1530983258, 1370000]
+build_time: [1531169754, 749837000]
 inputs:
-  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/ViewController.swift": [1530978838, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/ViewController.swift": [1531168412, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AppDelegate.swift": [1530977755, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AddNewCustomerViewController.swift": [1531169754, 0]

@@ -57,7 +57,7 @@
                             <barButtonItem systemItem="add" id="rkT-pL-1H1">
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <segue destination="jqW-lT-Wva" kind="show" id="S9c-Qr-Z0Z"/>
+                                    <segue destination="ngB-aT-2pF" kind="show" id="ucy-Io-elP"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem systemItem="search" id="7XI-aF-1vw">
@@ -445,10 +445,10 @@
             </objects>
             <point key="canvasLocation" x="262" y="837"/>
         </scene>
-        <!--AddEstimateView-->
+        <!--AddNewCustomer-->
         <scene sceneID="c22-uL-qho">
             <objects>
-                <viewController title="AddEstimateView" id="jqW-lT-Wva" customClass="AddEstimateViewController" customModule="FenceGUI_v5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="AddNewCustomer" id="jqW-lT-Wva" customClass="AddNewCustomerViewController" customModule="FenceGUI_v5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sWs-Lt-GrK">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -594,6 +594,7 @@
                                 <state key="normal" title="CREATE ESTIMATE"/>
                                 <connections>
                                     <action selector="CreateEstimate:" destination="BrC-nN-lW7" eventType="touchUpInside" id="k3q-Po-pte"/>
+                                    <action selector="createEstimate:" destination="jqW-lT-Wva" eventType="touchUpInside" id="DoN-6y-bGX"/>
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="9aK-aN-v0f">
@@ -616,23 +617,37 @@
                         <viewLayoutGuide key="safeArea" id="7sc-UM-Q2v"/>
                     </view>
                     <connections>
-                        <outlet property="city" destination="h3f-XJ-nxB" id="upT-oI-cbp"/>
-                        <outlet property="date" destination="9aK-aN-v0f" id="g6H-9V-ufo"/>
-                        <outlet property="email" destination="wxJ-1V-DqB" id="Dwv-Z9-6Au"/>
-                        <outlet property="employeeName" destination="2DU-8q-Yua" id="ByM-CE-pwg"/>
-                        <outlet property="firstName" destination="xvr-xc-ZJm" id="3Tn-So-AtX"/>
-                        <outlet property="lastName" destination="CYU-ad-HNa" id="Uu6-b2-ZNH"/>
-                        <outlet property="notes" destination="B8b-Ff-YcY" id="347-SF-DFO"/>
-                        <outlet property="phoneNumber" destination="6SE-LL-Rkb" id="1Fk-Ur-Ls6"/>
-                        <outlet property="state" destination="pxh-e0-amJ" id="qb3-Hz-T4J"/>
-                        <outlet property="streetAddress" destination="S2a-Lv-FU2" id="FgT-LJ-abc"/>
-                        <outlet property="zip" destination="1Fa-2j-qA9" id="lTj-Eb-kmr"/>
+                        <outlet property="city" destination="h3f-XJ-nxB" id="Kl1-QJ-iPD"/>
+                        <outlet property="date" destination="9aK-aN-v0f" id="tdK-zD-9OD"/>
+                        <outlet property="email" destination="wxJ-1V-DqB" id="hHx-dy-Ql0"/>
+                        <outlet property="employeeName" destination="2DU-8q-Yua" id="zDr-g9-a6H"/>
+                        <outlet property="firstName" destination="xvr-xc-ZJm" id="THx-UP-ctr"/>
+                        <outlet property="lastName" destination="CYU-ad-HNa" id="jCc-Cd-ECa"/>
+                        <outlet property="notes" destination="B8b-Ff-YcY" id="qwu-LO-woE"/>
+                        <outlet property="phoneNumber" destination="6SE-LL-Rkb" id="kuH-nx-Ovs"/>
+                        <outlet property="state" destination="pxh-e0-amJ" id="aXx-sL-xUV"/>
+                        <outlet property="streetAddress" destination="S2a-Lv-FU2" id="YsS-8l-1fb"/>
+                        <outlet property="zip" destination="1Fa-2j-qA9" id="yxz-zA-joU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XV8-Ag-RSQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="BrC-nN-lW7" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="894.72656249999989" y="132.65007320644216"/>
+            <point key="canvasLocation" x="1748" y="-2"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KXn-1P-Z0C">
+            <objects>
+                <viewController id="CNw-wX-TGe" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="VjQ-ud-rD0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Di6-54-3NV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="732"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IR7-JZ-Bk6">
@@ -652,20 +667,38 @@
             </objects>
             <point key="canvasLocation" x="-403" y="133"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Customer-->
         <scene sceneID="iwT-Jf-qve">
             <objects>
-                <viewController id="ngB-aT-2pF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WX4-N1-tHF">
+                <viewController title="Add Customer" id="ngB-aT-2pF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LwO-4R-1T5">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5t-G5-9kN">
+                                <rect key="frame" x="289" y="668" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="NEW CUSTOMER"/>
+                                <connections>
+                                    <segue destination="jqW-lT-Wva" kind="show" id="D5i-5D-tn8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWY-o4-wL4">
+                                <rect key="frame" x="600" y="668" width="153" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="EXISTING CUSTOMER"/>
+                                <connections>
+                                    <segue destination="CNw-wX-TGe" kind="show" id="3rg-Lj-8T8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Cbj-FQ-UyT"/>
+                        <viewLayoutGuide key="safeArea" id="2ec-17-nsD"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBo-1h-9Uz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1576" y="133"/>
+            <point key="canvasLocation" x="925.78124999999989" y="132.65007320644216"/>
         </scene>
     </scenes>
 </document>

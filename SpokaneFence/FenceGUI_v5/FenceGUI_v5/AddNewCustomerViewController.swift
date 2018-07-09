@@ -8,8 +8,20 @@
 
 import UIKit
 
-class AddEstimateViewController: UIViewController {
+class AddNewCustomerViewController: UIViewController {
 
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBOutlet weak var streetAddress: UITextField!
+    @IBOutlet weak var city: UITextField!
+    @IBOutlet weak var state: UITextField!
+    @IBOutlet weak var zip: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var phoneNumber: UITextField!
+    @IBOutlet weak var notes: UITextView!
+    @IBOutlet weak var date: UIDatePicker!
+    @IBOutlet weak var employeeName: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,5 +43,12 @@ class AddEstimateViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func createEstimate(_ sender: UIButton) {
+        //create customer object
+        //create estimate object
+        //add customer object to estimate
+        //add estimate to business 
+        //return to home screen
+    }
+    
 }
