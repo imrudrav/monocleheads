@@ -16,7 +16,6 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //create a business or load an existing one
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,10 +27,11 @@ class ViewController: UITableViewController {
         return array.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "customcell")
-        cell?.textLabel?.text = array[indexPath.item]
-        return cell!
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> customcell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "customcell") as! customcell
+        cell.textLabel?.text = array[indexPath.item]
+        cell.Estimate = cell.textLabel?.text
+        return cell
     }
 }
 

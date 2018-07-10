@@ -12,16 +12,9 @@
 		4F0C711C20F1155B0074F335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711A20F1155B0074F335 /* Main.storyboard */; };
 		4F0C711E20F1155B0074F335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711D20F1155B0074F335 /* Assets.xcassets */; };
 		4F0C712120F1155B0074F335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711F20F1155B0074F335 /* LaunchScreen.storyboard */; };
-		4F0C712A20F12AD80074F335 /* Node.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C712920F12AD80074F335 /* Node.hpp */; };
-		4F0C712D20F12B720074F335 /* List.hpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C712C20F12B720074F335 /* List.hpp */; };
-		4F0C713020F12B910074F335 /* Business.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C712E20F12B910074F335 /* Business.cpp */; };
-		4F0C713320F12B9F0074F335 /* Estimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C713120F12B9F0074F335 /* Estimate.cpp */; };
-		4F0C713620F12BAE0074F335 /* Fence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C713420F12BAE0074F335 /* Fence.cpp */; };
-		4F0C713920F12BB80074F335 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C713720F12BB80074F335 /* Line.cpp */; };
-		4F0C713C20F12BC20074F335 /* Gate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C713A20F12BC20074F335 /* Gate.cpp */; };
-		4F0C713F20F12BD10074F335 /* Customer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C713D20F12BD10074F335 /* Customer.cpp */; };
-		4F0C714220F12BDC0074F335 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C714020F12BDC0074F335 /* Employee.cpp */; };
 		4F0D822020F1344100D6B560 /* AddNewCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D821F20F1344100D6B560 /* AddNewCustomerViewController.swift */; };
+		4F0D822220F428E600D6B560 /* customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D822120F428E600D6B560 /* customcell.swift */; };
+		4F0D822420F45C1F00D6B560 /* objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D822320F45C1F00D6B560 /* objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,23 +26,9 @@
 		4F0C712020F1155B0074F335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F0C712220F1155B0074F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0C712820F12AD80074F335 /* FenceGUI_v5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FenceGUI_v5-Bridging-Header.h"; sourceTree = "<group>"; };
-		4F0C712920F12AD80074F335 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
-		4F0C712C20F12B720074F335 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
-		4F0C712E20F12B910074F335 /* Business.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Business.cpp; sourceTree = "<group>"; };
-		4F0C712F20F12B910074F335 /* Business.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Business.hpp; sourceTree = "<group>"; };
-		4F0C713120F12B9F0074F335 /* Estimate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Estimate.cpp; sourceTree = "<group>"; };
-		4F0C713220F12B9F0074F335 /* Estimate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Estimate.hpp; sourceTree = "<group>"; };
-		4F0C713420F12BAE0074F335 /* Fence.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fence.cpp; sourceTree = "<group>"; };
-		4F0C713520F12BAE0074F335 /* Fence.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fence.hpp; sourceTree = "<group>"; };
-		4F0C713720F12BB80074F335 /* Line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
-		4F0C713820F12BB80074F335 /* Line.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Line.hpp; sourceTree = "<group>"; };
-		4F0C713A20F12BC20074F335 /* Gate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gate.cpp; sourceTree = "<group>"; };
-		4F0C713B20F12BC20074F335 /* Gate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gate.hpp; sourceTree = "<group>"; };
-		4F0C713D20F12BD10074F335 /* Customer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Customer.cpp; sourceTree = "<group>"; };
-		4F0C713E20F12BD10074F335 /* Customer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Customer.hpp; sourceTree = "<group>"; };
-		4F0C714020F12BDC0074F335 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
-		4F0C714120F12BDC0074F335 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
 		4F0D821F20F1344100D6B560 /* AddNewCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewCustomerViewController.swift; sourceTree = "<group>"; };
+		4F0D822120F428E600D6B560 /* customcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customcell.swift; sourceTree = "<group>"; };
+		4F0D822320F45C1F00D6B560 /* objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +61,7 @@
 		4F0C711520F1155B0074F335 /* FenceGUI_v5 */ = {
 			isa = PBXGroup;
 			children = (
-				4F0C712B20F12B3D0074F335 /* C++ */,
+				4F0D822120F428E600D6B560 /* customcell.swift */,
 				4F0C711620F1155B0074F335 /* AppDelegate.swift */,
 				4F0D821F20F1344100D6B560 /* AddNewCustomerViewController.swift */,
 				4F0C711820F1155B0074F335 /* ViewController.swift */,
@@ -91,31 +70,9 @@
 				4F0C711F20F1155B0074F335 /* LaunchScreen.storyboard */,
 				4F0C712220F1155B0074F335 /* Info.plist */,
 				4F0C712820F12AD80074F335 /* FenceGUI_v5-Bridging-Header.h */,
+				4F0D822320F45C1F00D6B560 /* objects.swift */,
 			);
 			path = FenceGUI_v5;
-			sourceTree = "<group>";
-		};
-		4F0C712B20F12B3D0074F335 /* C++ */ = {
-			isa = PBXGroup;
-			children = (
-				4F0C712E20F12B910074F335 /* Business.cpp */,
-				4F0C712F20F12B910074F335 /* Business.hpp */,
-				4F0C713120F12B9F0074F335 /* Estimate.cpp */,
-				4F0C713220F12B9F0074F335 /* Estimate.hpp */,
-				4F0C713420F12BAE0074F335 /* Fence.cpp */,
-				4F0C713520F12BAE0074F335 /* Fence.hpp */,
-				4F0C713720F12BB80074F335 /* Line.cpp */,
-				4F0C713820F12BB80074F335 /* Line.hpp */,
-				4F0C713A20F12BC20074F335 /* Gate.cpp */,
-				4F0C713B20F12BC20074F335 /* Gate.hpp */,
-				4F0C713D20F12BD10074F335 /* Customer.cpp */,
-				4F0C713E20F12BD10074F335 /* Customer.hpp */,
-				4F0C714020F12BDC0074F335 /* Employee.cpp */,
-				4F0C714120F12BDC0074F335 /* Employee.hpp */,
-				4F0C712C20F12B720074F335 /* List.hpp */,
-				4F0C712920F12AD80074F335 /* Node.hpp */,
-			);
-			path = "C++";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,18 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F0C713C20F12BC20074F335 /* Gate.cpp in Sources */,
-				4F0C712A20F12AD80074F335 /* Node.hpp in Sources */,
-				4F0C713920F12BB80074F335 /* Line.cpp in Sources */,
-				4F0C714220F12BDC0074F335 /* Employee.cpp in Sources */,
-				4F0C712D20F12B720074F335 /* List.hpp in Sources */,
-				4F0C713620F12BAE0074F335 /* Fence.cpp in Sources */,
-				4F0C713F20F12BD10074F335 /* Customer.cpp in Sources */,
+				4F0D822420F45C1F00D6B560 /* objects.swift in Sources */,
 				4F0C711920F1155B0074F335 /* ViewController.swift in Sources */,
-				4F0C713020F12B910074F335 /* Business.cpp in Sources */,
+				4F0D822220F428E600D6B560 /* customcell.swift in Sources */,
 				4F0C711720F1155B0074F335 /* AppDelegate.swift in Sources */,
 				4F0D822020F1344100D6B560 /* AddNewCustomerViewController.swift in Sources */,
-				4F0C713320F12B9F0074F335 /* Estimate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
