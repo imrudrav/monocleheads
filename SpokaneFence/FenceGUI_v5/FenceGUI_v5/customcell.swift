@@ -9,9 +9,13 @@
 import UIKit
 
 class customcell: UITableViewCell {
-
-    var Estimate:String?
     
+    var est: Estimate?
+    var name: String?
+    var address: String?
+    var date: Date?
+    var id: Int?
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

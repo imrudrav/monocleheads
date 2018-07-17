@@ -234,12 +234,6 @@ SWIFT_CLASS("_TtC11FenceGUI_v58Business")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-SWIFT_CLASS("_TtC11FenceGUI_v58Estimate")
-@interface Estimate : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
 @class UITableView;
 @class customcell;
 
