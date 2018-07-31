@@ -17,6 +17,7 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "NSUserDefaultsManager"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -24,6 +25,7 @@ depends-top-level:
 - "UIWindow"
 depends-member:
 - ["11FenceGUI_v511AppDelegateC", "Bool"]
+- !private ["11FenceGUI_v511AppDelegateC", "NSUserDefaultsManager"]
 - ["11FenceGUI_v511AppDelegateC", "UIApplication"]
 - ["11FenceGUI_v511AppDelegateC", "UIApplicationLaunchOptionsKey"]
 - ["11FenceGUI_v511AppDelegateC", "UIWindow"]
@@ -42,6 +44,8 @@ depends-member:
 - ["11FenceGUI_v511AppDelegateC", "deinit"]
 - ["11FenceGUI_v511AppDelegateC", "init"]
 - ["11FenceGUI_v511AppDelegateC", "window"]
+- !private ["s7CVarArgP", "NSUserDefaultsManager"]
+- ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -55,8 +59,10 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "sychronize"]
 - ["s7CVarArgP", "window"]
-- ["s7CVarArgP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "NSUserDefaultsManager"]
+- ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -70,8 +76,10 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sychronize"]
 - ["s28CustomDebugStringConvertibleP", "window"]
-- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "NSUserDefaultsManager"]
+- ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -85,8 +93,10 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sychronize"]
 - ["s23CustomStringConvertibleP", "window"]
-- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "NSUserDefaultsManager"]
+- ["s9EquatableP", ""]
 - ["s9EquatableP", "application"]
 - ["s9EquatableP", "applicationDidBecomeActive"]
 - ["s9EquatableP", "applicationDidEnterBackground"]
@@ -100,8 +110,10 @@ depends-member:
 - ["s9EquatableP", "applicationWillResignActive"]
 - ["s9EquatableP", "applicationWillTerminate"]
 - !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "sychronize"]
 - ["s9EquatableP", "window"]
-- ["s9EquatableP", ""]
+- !private ["s8HashableP", "NSUserDefaultsManager"]
+- ["s8HashableP", ""]
 - ["s8HashableP", "application"]
 - ["s8HashableP", "applicationDidBecomeActive"]
 - ["s8HashableP", "applicationDidEnterBackground"]
@@ -115,9 +127,10 @@ depends-member:
 - ["s8HashableP", "applicationWillResignActive"]
 - ["s8HashableP", "applicationWillTerminate"]
 - !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "sychronize"]
 - ["s8HashableP", "window"]
-- ["s8HashableP", ""]
 - ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "NSUserDefaultsManager"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIApplicationLaunchOptionsKey"]
 - ["So8NSObjectC", "UIWindow"]
@@ -134,7 +147,10 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "sychronize"]
 - ["So8NSObjectC", "window"]
+- !private ["So16NSObjectProtocolP", "NSUserDefaultsManager"]
+- ["So16NSObjectProtocolP", ""]
 - ["So16NSObjectProtocolP", "application"]
 - ["So16NSObjectProtocolP", "applicationDidBecomeActive"]
 - ["So16NSObjectProtocolP", "applicationDidEnterBackground"]
@@ -148,8 +164,11 @@ depends-member:
 - ["So16NSObjectProtocolP", "applicationWillResignActive"]
 - ["So16NSObjectProtocolP", "applicationWillTerminate"]
 - !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "sychronize"]
 - ["So16NSObjectProtocolP", "window"]
-- ["So16NSObjectProtocolP", ""]
+- !private ["11FenceGUI_v521NSUserDefaultsManagerC", "sychronize"]
+- !private ["So21UIApplicationDelegateP", "NSUserDefaultsManager"]
+- ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -163,7 +182,8 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
 - ["So21UIApplicationDelegateP", "window"]
-- ["So21UIApplicationDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "NSUserDefaultsManager"]
+- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -178,11 +198,12 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
-- ["So30UIPasteConfigurationSupportingP", ""]
 - ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "NSUserDefaultsManager"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIApplicationLaunchOptionsKey"]
 - ["So11UIResponderC", "UIWindow"]
+- ["So11UIResponderC", ""]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
 - ["So11UIResponderC", "applicationDidEnterBackground"]
@@ -197,7 +218,8 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "window"]
-- ["So11UIResponderC", ""]
+- !private ["So30UIResponderStandardEditActionsP", "NSUserDefaultsManager"]
+- ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -212,7 +234,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - ["So30UIResponderStandardEditActionsP", "window"]
-- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUserDefaultsManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -226,8 +249,8 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sychronize"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
-- ["10Foundation27_KeyValueCodingAndObservingP", ""]
 depends-nominal:
 - "11FenceGUI_v511AppDelegateC"
 - "s7CVarArgP"
@@ -237,6 +260,7 @@ depends-nominal:
 - "s8HashableP"
 - "So8NSObjectC"
 - "So16NSObjectProtocolP"
+- !private "11FenceGUI_v521NSUserDefaultsManagerC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
@@ -258,4 +282,14 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/FenceGUI_v5-Bridging-Header.h"
-interface-hash: "b306772a10463f7c5fce689aa6452f8e"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "39b3012234996ab26d7217426d30560c"

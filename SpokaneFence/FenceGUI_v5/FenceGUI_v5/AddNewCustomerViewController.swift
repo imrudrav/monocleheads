@@ -43,12 +43,6 @@ class AddNewCustomerViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func createEstimate(_ sender: UIButton) {
-        //create customer object
-        //create estimate object
-        //add customer object to estimate
-        //add estimate to business 
-        //return to home screen
-    }
+    
     
 }
