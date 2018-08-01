@@ -24,7 +24,7 @@ class ViewController: UITableViewController {
         Business.AddCustomer(fname: "Giancarlo", lname: "Stannnto", address: "Bronx NY", email: "GNYC5@gmail.com", phone_num: "5096555446", notes: "Is really annoying and wont show us what hes got")*/
         
        NSUserDefaultsManager.initializeDefaults()
-        
+        Business.updateID()
         
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -60,7 +60,17 @@ class ViewController: UITableViewController {
         if (editingStyle == .delete){
             Business.RemoveCustomer(key: indexPath.item)
             tableView.deleteRows(at: [indexPath], with: UITableViewRowAnimation.left)
+             Business.updateID()
             NSUserDefaultsManager.sychronize()
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if(segue.identifier == "inspectcustomer")
+        {
+            let cell = sender as! customcell
+            let inspectcustomer = segue.destination as! InspectCustomerViewController
+            inspectcustomer.cus = cell.cus
         }
     }
 }

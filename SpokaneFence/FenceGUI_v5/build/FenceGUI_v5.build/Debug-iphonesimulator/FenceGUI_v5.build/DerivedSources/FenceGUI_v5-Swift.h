@@ -236,6 +236,24 @@ SWIFT_CLASS("_TtC11FenceGUI_v58Customer")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC11FenceGUI_v526EditCustomerViewController")
+@interface EditCustomerViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified fname;
+@property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified lname;
+@property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified address;
+@property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified email;
+@property (nonatomic, strong) IBOutlet UITextField * _Null_unspecified phone_num;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified notes;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC11FenceGUI_v58Employee")
 @interface Employee : NSObject <NSCoding>
@@ -256,12 +274,25 @@ SWIFT_CLASS("_TtC11FenceGUI_v58Estimate")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+@class UITableView;
+@class UILabel;
+@class UITableViewCell;
 
 SWIFT_CLASS("_TtC11FenceGUI_v529InspectCustomerViewController")
-@interface InspectCustomerViewController : UITableViewController
+@interface InspectCustomerViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified estimateTable;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified namedata;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified addressdata;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified emaildata;
+@property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified phonenumdata;
+@property (nonatomic, strong) IBOutlet UITextView * _Null_unspecified notesdata;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -272,7 +303,6 @@ SWIFT_CLASS("_TtC11FenceGUI_v521NSUserDefaultsManager")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 @class customcell;
 
 SWIFT_CLASS("_TtC11FenceGUI_v514ViewController")
@@ -283,6 +313,7 @@ SWIFT_CLASS("_TtC11FenceGUI_v514ViewController")
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (customcell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -291,6 +322,15 @@ SWIFT_CLASS("_TtC11FenceGUI_v514ViewController")
 
 SWIFT_CLASS("_TtC11FenceGUI_v510customcell")
 @interface customcell : UITableViewCell
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FenceGUI_v512estimatecell")
+@interface estimatecell : UITableViewCell
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
