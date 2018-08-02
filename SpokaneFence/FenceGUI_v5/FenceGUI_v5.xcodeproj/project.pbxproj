@@ -12,9 +12,9 @@
 		4F0C711C20F1155B0074F335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711A20F1155B0074F335 /* Main.storyboard */; };
 		4F0C711E20F1155B0074F335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711D20F1155B0074F335 /* Assets.xcassets */; };
 		4F0C712120F1155B0074F335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C711F20F1155B0074F335 /* LaunchScreen.storyboard */; };
+		4F0D35E921122E76004983E7 /* AddEstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D35E821122E76004983E7 /* AddEstimateViewController.swift */; };
 		4F0D822220F428E600D6B560 /* customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D822120F428E600D6B560 /* customcell.swift */; };
 		4F0D822420F45C1F00D6B560 /* objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0D822320F45C1F00D6B560 /* objects.swift */; };
-		4F2D82C021115FA300308A67 /* estimatecell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D82BF21115FA300308A67 /* estimatecell.swift */; };
 		4F2D82C421117B1700308A67 /* EditCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2D82C321117B1700308A67 /* EditCustomerViewController.swift */; };
 		4F40439D20FF7F6300CEC721 /* AddCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F40439C20FF7F6300CEC721 /* AddCustomerViewController.swift */; };
 		4F46BA462108DA4C00EDC4BA /* NSUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F46BA452108DA4C00EDC4BA /* NSUserDefaultsManager.swift */; };
@@ -30,9 +30,9 @@
 		4F0C712020F1155B0074F335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F0C712220F1155B0074F335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F0C712820F12AD80074F335 /* FenceGUI_v5-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FenceGUI_v5-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F0D35E821122E76004983E7 /* AddEstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEstimateViewController.swift; sourceTree = "<group>"; };
 		4F0D822120F428E600D6B560 /* customcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customcell.swift; sourceTree = "<group>"; };
 		4F0D822320F45C1F00D6B560 /* objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = objects.swift; sourceTree = "<group>"; };
-		4F2D82BF21115FA300308A67 /* estimatecell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estimatecell.swift; sourceTree = "<group>"; };
 		4F2D82C321117B1700308A67 /* EditCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCustomerViewController.swift; sourceTree = "<group>"; };
 		4F40439C20FF7F6300CEC721 /* AddCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerViewController.swift; sourceTree = "<group>"; };
 		4F46BA452108DA4C00EDC4BA /* NSUserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsManager.swift; sourceTree = "<group>"; };
@@ -70,12 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				4F0D822120F428E600D6B560 /* customcell.swift */,
-				4F2D82BF21115FA300308A67 /* estimatecell.swift */,
 				4F0C711620F1155B0074F335 /* AppDelegate.swift */,
 				4F0C711820F1155B0074F335 /* ViewController.swift */,
 				4F40439C20FF7F6300CEC721 /* AddCustomerViewController.swift */,
 				4FD459B32111594B00B5E689 /* InspectCustomerViewController.swift */,
 				4F2D82C321117B1700308A67 /* EditCustomerViewController.swift */,
+				4F0D35E821122E76004983E7 /* AddEstimateViewController.swift */,
 				4F0C711A20F1155B0074F335 /* Main.storyboard */,
 				4F0C711D20F1155B0074F335 /* Assets.xcassets */,
 				4F0C711F20F1155B0074F335 /* LaunchScreen.storyboard */,
@@ -160,8 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0D35E921122E76004983E7 /* AddEstimateViewController.swift in Sources */,
 				4F40439D20FF7F6300CEC721 /* AddCustomerViewController.swift in Sources */,
-				4F2D82C021115FA300308A67 /* estimatecell.swift in Sources */,
 				4F0D822420F45C1F00D6B560 /* objects.swift in Sources */,
 				4F0C711920F1155B0074F335 /* ViewController.swift in Sources */,
 				4F0D822220F428E600D6B560 /* customcell.swift in Sources */,

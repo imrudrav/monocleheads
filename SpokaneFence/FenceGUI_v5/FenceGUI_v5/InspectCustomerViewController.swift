@@ -16,6 +16,7 @@ class InspectCustomerViewController: UIViewController, UITableViewDelegate, UITa
     @IBOutlet var emaildata: UILabel!
     @IBOutlet var phonenumdata: UILabel!
     @IBOutlet var notesdata: UITextView!
+    @IBOutlet var loading: UIActivityIndicatorView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +31,7 @@ class InspectCustomerViewController: UIViewController, UITableViewDelegate, UITa
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        loading?.stopAnimating()
         namedata.text = (cus?.fname)! + " " + (cus?.lname)!
         addressdata.text = cus?.address
         emaildata.text = cus?.email
@@ -90,5 +92,16 @@ class InspectCustomerViewController: UIViewController, UITableViewDelegate, UITa
             let editcustomer = segue.destination as! EditCustomerViewController
             editcustomer.cus = cus
         }
+        if(segue.identifier == "addestimate")
+        {
+            let addestimate = segue.destination as! AddEstimateViewController
+            addestimate.cus = cus
+        }
     }
+    
+    @IBAction func unwindToInspect(for unwindSegue: UIStoryboardSegue) {
+        let sourceVC = unwindSegue.source as! EditCustomerViewController
+        sourceVC.cus = cus
+    }
+
 }

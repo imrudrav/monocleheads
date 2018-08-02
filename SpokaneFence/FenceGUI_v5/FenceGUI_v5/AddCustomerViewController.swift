@@ -50,6 +50,7 @@ class AddCustomerViewController: UIViewController {
         
         //persistant storage
         NSUserDefaultsManager.sychronize()
+        performSegue(withIdentifier: "unwindhome", sender: self)
     }
     
     /*

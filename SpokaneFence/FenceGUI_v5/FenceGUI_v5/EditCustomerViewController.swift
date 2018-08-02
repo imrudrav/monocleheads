@@ -37,16 +37,9 @@ class EditCustomerViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    /*
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    @IBAction func saveChanges(_ sender: Any) {
         //create customer object with given data
         let c = Customer(id:(cus?.id)!, fname: fname.text!, lname: lname.text!, address: address.text!, email: email.text!, phone_num: phone_num.text!, notes: notes.text)
         //change variables to correct type
@@ -55,11 +48,20 @@ class EditCustomerViewController: UIViewController {
         Business.UpdateCustomer(key: (cus?.id!)!, c: cus!)
         //persistant storage
         NSUserDefaultsManager.sychronize()
-        if(segue.identifier == "returninspect")
-        {
-            let inspectcustomer = segue.destination as! InspectCustomerViewController
-            inspectcustomer.cus = cus
-        }
+        //clear screen
+        fname.text = ""
+        lname.text = ""
+        address.text = ""
+        email.text = ""
+        phone_num.text = ""
+        notes.text = "Notes"
+        performSegue(withIdentifier: "unwindinspect", sender: self)
     }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let inspectcustomer = segue.destination as! InspectCustomerViewController
+        inspectcustomer.cus = cus
+    }
+    
+    
 }
