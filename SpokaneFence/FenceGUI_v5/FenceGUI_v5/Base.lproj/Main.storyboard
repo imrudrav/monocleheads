@@ -390,7 +390,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <segue destination="mKE-x5-Arv" kind="show" id="3Hv-F8-Asl"/>
+                                    <segue destination="mKE-x5-Arv" kind="popoverPresentation" identifier="addgate" popoverAnchorView="kpT-vK-8ae" id="3Hv-F8-Asl">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extras" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbr-NP-lMR">
@@ -442,10 +444,13 @@
                     </view>
                     <connections>
                         <outlet property="addressdata" destination="u9S-vd-TY0" id="sb7-Fm-pcP"/>
+                        <outlet property="colordata" destination="w1c-zS-xYr" id="P17-qB-fGq"/>
                         <outlet property="extraTable" destination="pdK-vX-klZ" id="pW0-Jb-qVL"/>
                         <outlet property="gateTable" destination="Nuu-Vt-Q2b" id="MAv-zl-9dc"/>
                         <outlet property="lineTable" destination="rM1-rL-bpw" id="K7U-fc-9Jj"/>
+                        <outlet property="materialdata" destination="25r-Xe-8WH" id="BKy-rz-b9K"/>
                         <outlet property="namedata" destination="msL-ja-PlY" id="mMT-H6-Woc"/>
+                        <outlet property="styledata" destination="AXS-ZM-q6G" id="jEz-US-ld1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HG5-0V-Pj9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -530,17 +535,38 @@
         <!--AddGateView-->
         <scene sceneID="bHW-9x-Zgi">
             <objects>
-                <viewController title="AddGateView" id="mKE-x5-Arv" sceneMemberID="viewController">
+                <viewController title="AddGateView" id="mKE-x5-Arv" customClass="AddGateViewController" customModule="FenceGUI_v5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OE6-jo-Q34">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mn1-nE-Cy1">
+                                <rect key="frame" x="199" y="66" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gate Width (ft)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfJ-nj-GcR">
+                                <rect key="frame" x="16" y="71" width="115" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Sg5-uA-fU0"/>
                     </view>
+                    <connections>
+                        <outlet property="widthdata" destination="Mn1-nE-Cy1" id="mYF-hZ-17L"/>
+                        <segue destination="GYN-8v-oQl" kind="unwind" identifier="unwindestimate" unwindAction="unwindToEstimateFor:" id="m43-Xm-ZGJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DCu-Sa-mTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="GYN-8v-oQl" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1941" y="2103"/>
+            <point key="canvasLocation" x="1940.6249999999998" y="2102.6354319180086"/>
         </scene>
         <!--EditEstimateView-->
         <scene sceneID="hCO-dp-7da">

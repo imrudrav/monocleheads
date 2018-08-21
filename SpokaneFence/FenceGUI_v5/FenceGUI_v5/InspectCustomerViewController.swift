@@ -27,7 +27,7 @@ class InspectCustomerViewController: UIViewController, UITableViewDelegate, UITa
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
          //self.navigationItem.rightBarButtonItem = self.editButtonItem
-         cus?.AddEstimate(id: 0, cid: "0", eid: "0", date: Date())
+         cus?.AddEstimate(id: 0, cid: 0, eid: 0, date: Date())
     }
     
     override func viewDidAppear(_ animated: Bool) {

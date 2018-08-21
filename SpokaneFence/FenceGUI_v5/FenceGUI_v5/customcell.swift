@@ -50,6 +50,7 @@ class linecell: UITableViewCell {
 
 class gatecell: UITableViewCell {
     
+    
 }
 
 class extracell: UITableViewCell {
