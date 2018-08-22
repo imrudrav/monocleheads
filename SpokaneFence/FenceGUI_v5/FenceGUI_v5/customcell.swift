@@ -45,14 +45,15 @@ class estimatecell: UITableViewCell {
 }
 
 class linecell: UITableViewCell {
+    var line: Line?
     
 }
 
 class gatecell: UITableViewCell {
-    
+    var gate: Gate?
     
 }
 
 class extracell: UITableViewCell {
-    
+    var extra:Extra?
 }

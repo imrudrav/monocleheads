@@ -62,7 +62,6 @@ class AddEstimateViewController: UIViewController, UITableViewDelegate, UITableV
     */
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         if tableView == self.lineTable {
             //need to create line class
             return (est?.lines.count)!
@@ -79,7 +78,27 @@ class AddEstimateViewController: UIViewController, UITableViewDelegate, UITableV
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       
+       //figure out which table we are working with
+        if tableView == self.lineTable {
+            //create cell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "linecell") as! linecell
+            //pass data
+            cell.line = est?.lines[indexPath.item]
+            //display data
+            cell.textLabel?.text = "Line #\(indexPath.item+1)        Length: \(cell.line?.distance ?? 0)        Number of Sections: \(cell.line?.num_sections ?? 0)        Material Cost: $\(cell.line?.material_cost ?? 0)        Price Per Foot: $\(cell.line?.price_per_foot ?? 0)"
+            return cell
+        }
+        else if tableView == self.gateTable {
+            //create cell
+            //pass data
+            //display data
+        }
+        else {
+            //create cell
+            //pass data
+            //display data
+        }
+        
     }
     
     @IBAction func unwindToEstimate(for unwindSegue: UIStoryboardSegue) {

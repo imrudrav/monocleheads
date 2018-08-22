@@ -1,14 +1,14 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
 options: "1432a33eedb977fc8f758897b27a83b8"
-build_time: [1534539187, 675816000]
+build_time: [1534967345, 49270000]
 inputs:
-  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AddEstimateViewController.swift": !dirty [1534539156, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AddEstimateViewController.swift": !dirty [1534876489, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AddCustomerViewController.swift": [1533146290, 0]
-  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/objects.swift": [1534539187, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/objects.swift": [1534876438, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/ViewController.swift": [1533146290, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/customcell.swift": [1534538315, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AddGateViewController.swift": [1534539059, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/AppDelegate.swift": [1532995973, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/EditCustomerViewController.swift": [1533146290, 0]
-  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/InspectCustomerViewController.swift": !dirty [1534539187, 0]
+  "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/InspectCustomerViewController.swift": [1534539195, 0]
   "/Users/tannerorndorff/Desktop/Monocleheads/SpokaneFence/FenceGUI_v5/FenceGUI_v5/NSUserDefaultsManager.swift": [1532535991, 0]
