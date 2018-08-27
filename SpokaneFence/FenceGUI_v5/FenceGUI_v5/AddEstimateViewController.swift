@@ -49,7 +49,6 @@ class AddEstimateViewController: UIViewController, UITableViewDelegate, UITableV
         est?.color = colordata?.titleForSegment(at: (colordata?.selectedSegmentIndex)!)
         est?.style = styledata?.titleForSegment(at: (styledata?.selectedSegmentIndex)!)
         est?.material = materialdata?.titleForSegment(at: (materialdata?.selectedSegmentIndex)!)
-        
     }
     /*
     // MARK: - Navigation
@@ -90,15 +89,22 @@ class AddEstimateViewController: UIViewController, UITableViewDelegate, UITableV
         }
         else if tableView == self.gateTable {
             //create cell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "gatecell") as! gatecell
             //pass data
+            cell.gate = est?.gates[indexPath.item]
             //display data
+            cell.textLabel?.text = "Gate #\(indexPath.item+1)        Dimensions: \(cell.gate?.heighth ?? 0)x\(cell.gate?.width ?? 0)ft        Material Cost: $\(cell.gate?.cost ?? 0)"
+            return cell
         }
         else {
             //create cell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "extracell") as! extracell
             //pass data
+            cell.extra = est?.extras[indexPath.item]
             //display data
+            cell.textLabel?.text = "Extra #\(indexPath.item+1)        Description: \(cell.extra?.des ?? " ")        Projected Cost: \(cell.extra?.cost ?? 0)"
+            return cell
         }
-        
     }
     
     @IBAction func unwindToEstimate(for unwindSegue: UIStoryboardSegue) {

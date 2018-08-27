@@ -23,7 +23,7 @@ class AddGateViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         let width = Int((widthdata?.text)!)
-        ng = Gate(id: 0, width: width! , material: ngmaterial!, color: ngcolor!)
+        ng = Gate(id: 0, heighth: 0, width: width! , material: ngmaterial!, color: ngcolor!)
         gates.append(ng!)
     }
     

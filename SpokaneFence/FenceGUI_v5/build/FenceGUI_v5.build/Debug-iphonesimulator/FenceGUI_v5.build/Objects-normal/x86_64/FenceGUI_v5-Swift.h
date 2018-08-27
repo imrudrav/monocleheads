@@ -164,8 +164,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
 @import Foundation;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -207,14 +207,38 @@ SWIFT_CLASS("_TtC11FenceGUI_v525AddCustomerViewController")
 @end
 
 @class UILabel;
+@class UISegmentedControl;
+@class UITableView;
+@class UITableViewCell;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC11FenceGUI_v525AddEstimateViewController")
-@interface AddEstimateViewController : UIViewController
+@interface AddEstimateViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) IBOutlet UILabel * _Nullable namedata;
 @property (nonatomic, strong) IBOutlet UITextField * _Nullable addressdata;
+@property (nonatomic, strong) IBOutlet UISegmentedControl * _Nullable materialdata;
+@property (nonatomic, strong) IBOutlet UISegmentedControl * _Nullable colordata;
+@property (nonatomic, strong) IBOutlet UISegmentedControl * _Nullable styledata;
+@property (nonatomic, strong) IBOutlet UITableView * _Nullable lineTable;
+@property (nonatomic, strong) IBOutlet UITableView * _Nullable gateTable;
+@property (nonatomic, strong) IBOutlet UITableView * _Nullable extraTable;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (IBAction)unwindToEstimateFor:(UIStoryboardSegue * _Nonnull)unwindSegue;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FenceGUI_v521AddGateViewController")
+@interface AddGateViewController : UIViewController
+@property (nonatomic, strong) IBOutlet UITextField * _Nullable widthdata;
+- (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -249,7 +273,6 @@ SWIFT_CLASS("_TtC11FenceGUI_v58Customer")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC11FenceGUI_v526EditCustomerViewController")
 @interface EditCustomerViewController : UIViewController
@@ -288,9 +311,25 @@ SWIFT_CLASS("_TtC11FenceGUI_v58Estimate")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-@class UITableView;
+
+SWIFT_CLASS("_TtC11FenceGUI_v55Extra")
+@interface Extra : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC11FenceGUI_v54Gate")
+@interface Gate : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
 @class UIActivityIndicatorView;
-@class UITableViewCell;
 
 SWIFT_CLASS("_TtC11FenceGUI_v529InspectCustomerViewController")
 @interface InspectCustomerViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
@@ -311,6 +350,15 @@ SWIFT_CLASS("_TtC11FenceGUI_v529InspectCustomerViewController")
 - (IBAction)unwindToInspectFor:(UIStoryboardSegue * _Nonnull)unwindSegue;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11FenceGUI_v54Line")
+@interface Line : NSObject <NSCoding>
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
